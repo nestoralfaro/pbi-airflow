@@ -4277,3 +4277,108 @@ airflow.exceptions.DuplicateTaskIdFound: Task id 'run_dotnet' has already been a
 [2024-05-02T10:21:10.408-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:21:10.407-0500] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-05-02T10:21:10.414-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:21:10.414-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
 [2024-05-02T10:21:10.422-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.068 seconds
+[2024-05-02T10:21:41.354-0500] {processor.py:161} INFO - Started process (PID=40665) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:21:41.356-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:21:41.357-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:21:41.356-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:21:41.362-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:21:41.406-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:21:41.406-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:21:41.413-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:21:41.413-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:21:41.420-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.067 seconds
+[2024-05-02T10:22:12.418-0500] {processor.py:161} INFO - Started process (PID=40723) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:22:12.421-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:22:12.421-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:22:12.421-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:22:12.427-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:22:12.477-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:22:12.477-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:22:12.485-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:22:12.484-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:22:12.492-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.076 seconds
+[2024-05-02T10:22:43.440-0500] {processor.py:161} INFO - Started process (PID=40726) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:22:43.442-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:22:43.443-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:22:43.443-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:22:43.448-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:22:43.493-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:22:43.493-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:22:43.500-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:22:43.500-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:22:43.507-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.068 seconds
+[2024-05-02T10:23:14.533-0500] {processor.py:161} INFO - Started process (PID=40727) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:23:14.535-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:23:14.535-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:23:14.535-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:23:14.542-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:23:14.587-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:23:14.587-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:23:14.594-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:23:14.594-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:23:14.601-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.069 seconds
+[2024-05-02T10:23:45.455-0500] {processor.py:161} INFO - Started process (PID=40731) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:23:45.457-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:23:45.457-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:23:45.457-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:23:45.462-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:23:45.507-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:23:45.507-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:23:45.514-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:23:45.514-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:23:45.521-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.068 seconds
+[2024-05-02T10:24:16.505-0500] {processor.py:161} INFO - Started process (PID=40735) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:24:16.506-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:24:16.507-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:24:16.507-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:24:16.513-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:24:16.557-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:24:16.557-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:24:16.564-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:24:16.564-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:24:16.571-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.068 seconds
+[2024-05-02T10:24:47.560-0500] {processor.py:161} INFO - Started process (PID=40738) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:24:47.562-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:24:47.563-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:24:47.562-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:24:47.569-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:24:47.615-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:24:47.615-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:24:47.621-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:24:47.621-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:24:47.628-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.070 seconds
+[2024-05-02T10:25:18.429-0500] {processor.py:161} INFO - Started process (PID=40739) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:25:18.430-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:25:18.431-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:25:18.431-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:25:18.434-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:25:18.486-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:25:18.486-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:25:18.494-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:25:18.494-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:25:18.504-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.076 seconds
+[2024-05-02T10:25:49.424-0500] {processor.py:161} INFO - Started process (PID=40743) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:25:49.426-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:25:49.426-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:25:49.426-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:25:49.432-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:25:49.477-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:25:49.477-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:25:49.484-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:25:49.484-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:25:49.491-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.068 seconds
+[2024-05-02T10:26:20.470-0500] {processor.py:161} INFO - Started process (PID=40778) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:26:20.472-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:26:20.472-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:26:20.472-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:26:20.478-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:26:20.529-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:26:20.529-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:26:20.537-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:26:20.537-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:26:20.545-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.077 seconds
+[2024-05-02T10:26:51.387-0500] {processor.py:161} INFO - Started process (PID=40779) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:26:51.389-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:26:51.389-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:26:51.389-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:26:51.395-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:26:51.444-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:26:51.444-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:26:51.450-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:26:51.450-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:26:51.457-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.072 seconds
+[2024-05-02T10:27:22.490-0500] {processor.py:161} INFO - Started process (PID=40822) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:27:22.492-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:27:22.493-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:27:22.493-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:27:22.499-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:27:22.546-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:27:22.546-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:27:22.553-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:27:22.553-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:27:22.561-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.072 seconds
+[2024-05-02T10:27:53.338-0500] {processor.py:161} INFO - Started process (PID=40826) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:27:53.339-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:27:53.340-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:27:53.339-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:27:53.344-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:27:53.387-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:27:53.387-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:27:53.394-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:27:53.394-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:27:53.402-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.065 seconds
+[2024-05-02T10:28:24.314-0500] {processor.py:161} INFO - Started process (PID=40836) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:28:24.316-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:28:24.316-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:28:24.316-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:28:24.323-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:28:24.370-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:28:24.370-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:28:24.378-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:28:24.377-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:28:24.385-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.072 seconds
+[2024-05-02T10:28:55.172-0500] {processor.py:161} INFO - Started process (PID=40882) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:28:55.174-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py for tasks to queue
+[2024-05-02T10:28:55.174-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:28:55.174-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:28:55.177-0500] {processor.py:840} INFO - DAG(s) 'scenario_two_v3' retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py
+[2024-05-02T10:28:55.218-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:28:55.218-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-02T10:28:55.225-0500] {logging_mixin.py:188} INFO - [2024-05-02T10:28:55.224-0500] {dag.py:3954} INFO - Setting next_dagrun for scenario_two_v3 to 2024-05-02 00:00:00+00:00, run_after=2024-05-03 00:00:00+00:00
+[2024-05-02T10:28:55.232-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/dags/dotnet_dag.py took 0.061 seconds
