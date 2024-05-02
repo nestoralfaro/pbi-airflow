@@ -1,0 +1,308 @@
+[2024-05-01T23:30:58.298-0500] {processor.py:161} INFO - Started process (PID=34768) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:30:58.299-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:30:58.300-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:30:58.300-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:30:58.318-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:30:58.315-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:30:58.318-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:30:58.318-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:30:58.318-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:30:58.356-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.060 seconds
+[2024-05-01T23:32:32.528-0500] {processor.py:161} INFO - Started process (PID=34843) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:32:32.530-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:32:32.531-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:32:32.531-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:32:32.548-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:32:32.546-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:32:32.548-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:32:32.548-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:32:32.548-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:32:32.581-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.054 seconds
+[2024-05-01T23:34:32.923-0500] {processor.py:161} INFO - Started process (PID=34929) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:34:32.925-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:34:32.925-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:34:32.925-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:34:32.944-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:34:32.942-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:34:32.945-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:34:32.944-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:34:32.945-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:34:32.984-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.062 seconds
+[2024-05-01T23:36:25.858-0500] {processor.py:161} INFO - Started process (PID=34998) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:36:25.860-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:36:25.860-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:36:25.860-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:36:25.877-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:36:25.875-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:36:25.877-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:36:25.877-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:36:25.877-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:36:25.914-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.057 seconds
+[2024-05-01T23:38:20.314-0500] {processor.py:161} INFO - Started process (PID=35067) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:38:20.316-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:38:20.316-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:38:20.316-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:38:20.334-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:38:20.331-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:38:20.334-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:38:20.334-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:38:20.334-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:38:20.367-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.055 seconds
+[2024-05-01T23:40:15.069-0500] {processor.py:161} INFO - Started process (PID=35155) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:40:15.071-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:40:15.071-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:40:15.071-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:40:15.088-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:40:15.086-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:40:15.088-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:40:15.088-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:40:15.088-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:40:15.124-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.056 seconds
+[2024-05-01T23:42:43.915-0500] {processor.py:161} INFO - Started process (PID=35278) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:42:43.917-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:42:43.918-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:42:43.918-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:42:43.936-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:42:43.934-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:42:43.936-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:42:43.936-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:42:43.936-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:42:43.974-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.060 seconds
+[2024-05-01T23:44:12.336-0500] {processor.py:161} INFO - Started process (PID=35331) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:44:12.338-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:44:12.339-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:44:12.339-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:44:12.356-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:44:12.354-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:44:12.356-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:44:12.356-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:44:12.356-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:44:12.390-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.055 seconds
+[2024-05-01T23:46:08.312-0500] {processor.py:161} INFO - Started process (PID=35415) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:46:08.314-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:46:08.315-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:46:08.314-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:46:08.332-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:46:08.330-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:46:08.332-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:46:08.332-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:46:08.332-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:46:08.370-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.060 seconds
+[2024-05-01T23:47:59.674-0500] {processor.py:161} INFO - Started process (PID=35493) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:47:59.676-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:47:59.676-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:47:59.676-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:47:59.693-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:47:59.691-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:47:59.693-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:47:59.693-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:47:59.693-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:47:59.728-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.056 seconds
+[2024-05-01T23:49:54.389-0500] {processor.py:161} INFO - Started process (PID=35571) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:49:54.391-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:49:54.391-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:49:54.391-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:49:54.411-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:49:54.408-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:49:54.411-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:49:54.411-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:49:54.411-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:49:54.450-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.063 seconds
+[2024-05-01T23:51:47.693-0500] {processor.py:161} INFO - Started process (PID=35640) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:51:47.694-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:51:47.695-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:51:47.695-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:51:47.711-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:51:47.709-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:51:47.711-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:51:47.711-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:51:47.711-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:51:47.747-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.055 seconds
+[2024-05-01T23:53:45.892-0500] {processor.py:161} INFO - Started process (PID=35726) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:53:45.893-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:53:45.893-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:53:45.893-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:53:45.910-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:53:45.908-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:53:45.910-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:53:45.910-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:53:45.910-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:53:45.945-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.055 seconds
+[2024-05-01T23:55:39.873-0500] {processor.py:161} INFO - Started process (PID=35795) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:55:39.875-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:55:39.875-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:55:39.875-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:55:39.892-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:55:39.890-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:55:39.892-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:55:39.892-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:55:39.892-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:55:39.925-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.054 seconds
+[2024-05-01T23:57:30.475-0500] {processor.py:161} INFO - Started process (PID=35863) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:57:30.476-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:57:30.476-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:57:30.476-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:57:30.493-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:57:30.491-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:57:30.493-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:57:30.493-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:57:30.493-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:57:30.526-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.053 seconds
+[2024-05-01T23:59:22.875-0500] {processor.py:161} INFO - Started process (PID=35934) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:59:22.876-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-01T23:59:22.876-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:59:22.876-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:59:22.893-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:59:22.890-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-01T23:59:22.893-0500] {logging_mixin.py:188} INFO - [2024-05-01T23:59:22.893-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-01T23:59:22.893-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-01T23:59:22.927-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.053 seconds
+[2024-05-02T00:01:12.880-0500] {processor.py:161} INFO - Started process (PID=36027) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:01:12.882-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-02T00:01:12.883-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:01:12.883-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:01:12.901-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:01:12.898-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-02T00:01:12.901-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:01:12.901-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-02T00:01:12.901-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:01:12.938-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.059 seconds
+[2024-05-02T00:03:11.790-0500] {processor.py:161} INFO - Started process (PID=36111) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:03:11.792-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-02T00:03:11.792-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:03:11.792-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:03:11.808-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:03:11.806-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-02T00:03:11.808-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:03:11.808-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-02T00:03:11.808-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:03:11.842-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.054 seconds
+[2024-05-02T00:05:05.687-0500] {processor.py:161} INFO - Started process (PID=36187) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:05:05.689-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-02T00:05:05.689-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:05:05.689-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:05:05.706-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:05:05.704-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-02T00:05:05.706-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:05:05.706-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-02T00:05:05.706-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:05:05.741-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.055 seconds
+[2024-05-02T00:06:56.823-0500] {processor.py:161} INFO - Started process (PID=36275) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:06:56.826-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-02T00:06:56.826-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:06:56.826-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:06:56.843-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:06:56.841-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-02T00:06:56.843-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:06:56.843-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-02T00:06:56.843-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:06:56.876-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.054 seconds
+[2024-05-02T00:08:46.980-0500] {processor.py:161} INFO - Started process (PID=36342) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:08:46.982-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-02T00:08:46.982-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:08:46.982-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:08:47.000-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:08:46.997-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-02T00:08:47.000-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:08:47.000-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-02T00:08:47.000-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:08:47.034-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.056 seconds
+[2024-05-02T00:11:51.485-0500] {processor.py:161} INFO - Started process (PID=36470) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:11:51.487-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-02T00:11:51.488-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:11:51.487-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:11:51.504-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:11:51.502-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-02T00:11:51.504-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:11:51.504-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-02T00:11:51.504-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:11:51.539-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.055 seconds
+[2024-05-02T00:13:17.383-0500] {processor.py:161} INFO - Started process (PID=36537) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:13:17.385-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-02T00:13:17.385-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:13:17.385-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:13:17.403-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:13:17.400-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-02T00:13:17.403-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:13:17.403-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-02T00:13:17.403-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:13:17.436-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.055 seconds
+[2024-05-02T00:15:44.879-0500] {processor.py:161} INFO - Started process (PID=36634) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:15:44.882-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-02T00:15:44.882-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:15:44.882-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:15:44.899-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:15:44.897-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-02T00:15:44.899-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:15:44.899-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-02T00:15:44.899-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:15:44.936-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.058 seconds
+[2024-05-02T00:17:13.586-0500] {processor.py:161} INFO - Started process (PID=36693) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:17:13.588-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-02T00:17:13.588-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:17:13.588-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:17:13.606-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:17:13.603-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-02T00:17:13.606-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:17:13.606-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-02T00:17:13.606-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:17:13.640-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.055 seconds
+[2024-05-02T00:19:09.252-0500] {processor.py:161} INFO - Started process (PID=36786) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:19:09.254-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-02T00:19:09.255-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:19:09.254-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:19:09.270-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:19:09.268-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-02T00:19:09.270-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:19:09.270-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-02T00:19:09.270-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:19:09.303-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.052 seconds
+[2024-05-02T00:21:03.552-0500] {processor.py:161} INFO - Started process (PID=36874) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:21:03.553-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-02T00:21:03.553-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:21:03.553-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:21:03.570-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:21:03.568-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-02T00:21:03.570-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:21:03.570-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-02T00:21:03.570-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:21:03.606-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.056 seconds
+[2024-05-02T00:22:58.994-0500] {processor.py:161} INFO - Started process (PID=36986) to work on /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:22:58.996-0500] {processor.py:830} INFO - Processing file /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-05-02T00:22:58.996-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:22:58.996-0500] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:22:59.016-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:22:59.013-0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-05-02T00:22:59.016-0500] {logging_mixin.py:188} INFO - [2024-05-02T00:22:59.016-0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-05-02T00:22:59.016-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-05-02T00:22:59.054-0500] {processor.py:183} INFO - Processing /Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.062 seconds
