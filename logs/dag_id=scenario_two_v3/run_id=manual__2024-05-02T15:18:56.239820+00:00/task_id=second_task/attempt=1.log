@@ -1,0 +1,81 @@
+[2024-05-02T10:18:58.972-0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-02T10:18:58.979-0500] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scenario_two_v3.second_task manual__2024-05-02T15:18:56.239820+00:00 [queued]>
+[2024-05-02T10:18:58.982-0500] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scenario_two_v3.second_task manual__2024-05-02T15:18:56.239820+00:00 [queued]>
+[2024-05-02T10:18:58.982-0500] {taskinstance.py:2303} INFO - Starting attempt 1 of 6
+[2024-05-02T10:18:58.988-0500] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): second_task> on 2024-05-02 15:18:56.239820+00:00
+[2024-05-02T10:18:58.990-0500] {standard_task_runner.py:63} INFO - Started process 40508 to run task
+[2024-05-02T10:18:58.993-0500] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'scenario_two_v3', 'second_task', 'manual__2024-05-02T15:18:56.239820+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/dotnet_dag.py', '--cfg-path', '/var/folders/14/31_1v10s5nvcqyswsggcn5vh0000gn/T/tmpwtdkkac4']
+[2024-05-02T10:18:58.995-0500] {standard_task_runner.py:91} INFO - Job 34: Subtask second_task
+[2024-05-02T10:18:59.010-0500] {task_command.py:426} INFO - Running <TaskInstance: scenario_two_v3.second_task manual__2024-05-02T15:18:56.239820+00:00 [running]> on host nestors-macbook.attlocal.net
+[2024-05-02T10:18:59.041-0500] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nestor' AIRFLOW_CTX_DAG_ID='scenario_two_v3' AIRFLOW_CTX_TASK_ID='second_task' AIRFLOW_CTX_EXECUTION_DATE='2024-05-02T15:18:56.239820+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-02T15:18:56.239820+00:00'
+[2024-05-02T10:18:59.042-0500] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-02T10:18:59.049-0500] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/14/31_1v10s5nvcqyswsggcn5vh0000gn/T
+[2024-05-02T10:18:59.049-0500] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'dotnet run --project /Users/nestoralfaro/Desktop/pbi-scenario-two/dotnetapp/dotnetapp.csproj']
+[2024-05-02T10:18:59.053-0500] {subprocess.py:86} INFO - Output:
+[2024-05-02T10:19:00.091-0500] {subprocess.py:93} INFO - rows: 4
+[2024-05-02T10:19:00.108-0500] {subprocess.py:93} INFO - Hello, tutorial_taskflow_api!
+[2024-05-02T10:19:00.108-0500] {subprocess.py:93} INFO - Hello, example_xcom_args!
+[2024-05-02T10:19:00.109-0500] {subprocess.py:93} INFO - Hello, example_branch_datetime_operator_3!
+[2024-05-02T10:19:00.109-0500] {subprocess.py:93} INFO - Hello, example_branch_labels!
+[2024-05-02T10:19:00.109-0500] {subprocess.py:93} INFO - Hello, dataset_produces_1!
+[2024-05-02T10:19:00.109-0500] {subprocess.py:93} INFO - Hello, latest_only_with_trigger!
+[2024-05-02T10:19:00.109-0500] {subprocess.py:93} INFO - Hello, example_xcom!
+[2024-05-02T10:19:00.110-0500] {subprocess.py:93} INFO - Hello, consume_1_and_2_with_dataset_expressions!
+[2024-05-02T10:19:00.110-0500] {subprocess.py:93} INFO - Hello, tutorial_dag!
+[2024-05-02T10:19:00.110-0500] {subprocess.py:93} INFO - Hello, dataset_consumes_unknown_never_scheduled!
+[2024-05-02T10:19:00.110-0500] {subprocess.py:93} INFO - Hello, example_params_ui_tutorial!
+[2024-05-02T10:19:00.110-0500] {subprocess.py:93} INFO - Hello, example_params_trigger_ui!
+[2024-05-02T10:19:00.111-0500] {subprocess.py:93} INFO - Hello, example_subdag_operator!
+[2024-05-02T10:19:00.111-0500] {subprocess.py:93} INFO - Hello, example_sla_dag!
+[2024-05-02T10:19:00.111-0500] {subprocess.py:93} INFO - Hello, example_weekday_branch_operator!
+[2024-05-02T10:19:00.111-0500] {subprocess.py:93} INFO - Hello, example_passing_params_via_test_command!
+[2024-05-02T10:19:00.112-0500] {subprocess.py:93} INFO - Hello, example_task_group!
+[2024-05-02T10:19:00.112-0500] {subprocess.py:93} INFO - Hello, example_setup_teardown!
+[2024-05-02T10:19:00.112-0500] {subprocess.py:93} INFO - Hello, example_trigger_target_dag!
+[2024-05-02T10:19:00.112-0500] {subprocess.py:93} INFO - Hello, example_python_operator!
+[2024-05-02T10:19:00.113-0500] {subprocess.py:93} INFO - Hello, example_external_task_marker_child!
+[2024-05-02T10:19:00.113-0500] {subprocess.py:93} INFO - Hello, example_short_circuit_operator!
+[2024-05-02T10:19:00.113-0500] {subprocess.py:93} INFO - Hello, example_time_delta_sensor_async!
+[2024-05-02T10:19:00.113-0500] {subprocess.py:93} INFO - Hello, dataset_produces_2!
+[2024-05-02T10:19:00.114-0500] {subprocess.py:93} INFO - Hello, tutorial!
+[2024-05-02T10:19:00.114-0500] {subprocess.py:93} INFO - Hello, consume_1_or_2_with_dataset_expressions!
+[2024-05-02T10:19:00.114-0500] {subprocess.py:93} INFO - Hello, example_xcom_args_with_operators!
+[2024-05-02T10:19:00.114-0500] {subprocess.py:93} INFO - Hello, example_branch_dop_operator_v3!
+[2024-05-02T10:19:00.114-0500] {subprocess.py:93} INFO - Hello, example_complex!
+[2024-05-02T10:19:00.115-0500] {subprocess.py:93} INFO - Hello, example_sensors!
+[2024-05-02T10:19:00.115-0500] {subprocess.py:93} INFO - Hello, example_dynamic_task_mapping_with_no_taskflow_operators!
+[2024-05-02T10:19:00.115-0500] {subprocess.py:93} INFO - Hello, example_subdag_operator.section-1!
+[2024-05-02T10:19:00.115-0500] {subprocess.py:93} INFO - Hello, example_subdag_operator.section-2!
+[2024-05-02T10:19:00.115-0500] {subprocess.py:93} INFO - Hello, example_short_circuit_decorator!
+[2024-05-02T10:19:00.116-0500] {subprocess.py:93} INFO - Hello, example_dag_decorator!
+[2024-05-02T10:19:00.116-0500] {subprocess.py:93} INFO - Hello, consume_1_or_both_2_and_3_with_dataset_expressions!
+[2024-05-02T10:19:00.116-0500] {subprocess.py:93} INFO - Hello, example_external_task_marker_parent!
+[2024-05-02T10:19:00.116-0500] {subprocess.py:93} INFO - Hello, dataset_consumes_1!
+[2024-05-02T10:19:00.116-0500] {subprocess.py:93} INFO - Hello, example_task_group_decorator!
+[2024-05-02T10:19:00.116-0500] {subprocess.py:93} INFO - Hello, example_nested_branch_dag!
+[2024-05-02T10:19:00.117-0500] {subprocess.py:93} INFO - Hello, example_bash_decorator!
+[2024-05-02T10:19:00.117-0500] {subprocess.py:93} INFO - Hello, example_skip_dag!
+[2024-05-02T10:19:00.117-0500] {subprocess.py:93} INFO - Hello, example_dynamic_task_mapping!
+[2024-05-02T10:19:00.117-0500] {subprocess.py:93} INFO - Hello, example_branch_datetime_operator!
+[2024-05-02T10:19:00.117-0500] {subprocess.py:93} INFO - Hello, example_display_name!
+[2024-05-02T10:19:00.117-0500] {subprocess.py:93} INFO - Hello, latest_only!
+[2024-05-02T10:19:00.118-0500] {subprocess.py:93} INFO - Hello, example_python_decorator!
+[2024-05-02T10:19:00.118-0500] {subprocess.py:93} INFO - Hello, tutorial_objectstorage!
+[2024-05-02T10:19:00.118-0500] {subprocess.py:93} INFO - Hello, dataset_consumes_1_never_scheduled!
+[2024-05-02T10:19:00.118-0500] {subprocess.py:93} INFO - Hello, dataset_consumes_1_and_2!
+[2024-05-02T10:19:00.118-0500] {subprocess.py:93} INFO - Hello, example_sensor_decorator!
+[2024-05-02T10:19:00.119-0500] {subprocess.py:93} INFO - Hello, example_setup_teardown_taskflow!
+[2024-05-02T10:19:00.119-0500] {subprocess.py:93} INFO - Hello, example_trigger_controller_dag!
+[2024-05-02T10:19:00.119-0500] {subprocess.py:93} INFO - Hello, example_bash_operator!
+[2024-05-02T10:19:00.119-0500] {subprocess.py:93} INFO - Hello, conditional_dataset_and_time_based_timetable!
+[2024-05-02T10:19:00.119-0500] {subprocess.py:93} INFO - Hello, example_branch_datetime_operator_2!
+[2024-05-02T10:19:00.120-0500] {subprocess.py:93} INFO - Hello, scenario_two!
+[2024-05-02T10:19:00.120-0500] {subprocess.py:93} INFO - Hello, scenario_two_v2!
+[2024-05-02T10:19:00.120-0500] {subprocess.py:93} INFO - Hello, scenario_two_v1!
+[2024-05-02T10:19:00.120-0500] {subprocess.py:93} INFO - Hello, scenario_two_v3!
+[2024-05-02T10:19:00.121-0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-05-02T10:19:00.122-0500] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-02T10:19:00.131-0500] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=scenario_two_v3, task_id=second_task, execution_date=20240502T151856, start_date=20240502T151858, end_date=20240502T151900
+[2024-05-02T10:19:00.148-0500] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-02T10:19:00.154-0500] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-02T10:19:00.154-0500] {local_task_job_runner.py:222} INFO - ::endgroup::

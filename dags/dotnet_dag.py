@@ -9,7 +9,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id="scenario_two_v2",
+    dag_id="scenario_two_v3",
     default_args=default_args,
     description="executes C# program with dotnet",
     start_date=datetime(2024,5,1),
@@ -17,11 +17,11 @@ with DAG(
 ) as dag:
     task1 = BashOperator(
         task_id="first_task",
-        bash_command="echo this is task1"
+        bash_command="echo starting workflow"
     )
     task2 = BashOperator(
         task_id="second_task",
-        bash_command="echo this is task2"
+        bash_command="dotnet run --project /Users/nestoralfaro/Desktop/pbi-scenario-two/dotnetapp/dotnetapp.csproj"
     )
 
     task1.set_downstream(task2)

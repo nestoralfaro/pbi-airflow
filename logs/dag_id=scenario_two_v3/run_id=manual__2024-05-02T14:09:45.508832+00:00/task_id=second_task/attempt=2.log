@@ -1,0 +1,33 @@
+[2024-05-02T09:11:50.173-0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-02T09:11:50.179-0500] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scenario_two_v3.second_task manual__2024-05-02T14:09:45.508832+00:00 [queued]>
+[2024-05-02T09:11:50.182-0500] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scenario_two_v3.second_task manual__2024-05-02T14:09:45.508832+00:00 [queued]>
+[2024-05-02T09:11:50.182-0500] {taskinstance.py:2303} INFO - Starting attempt 2 of 6
+[2024-05-02T09:11:50.186-0500] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): second_task> on 2024-05-02 14:09:45.508832+00:00
+[2024-05-02T09:11:50.189-0500] {standard_task_runner.py:63} INFO - Started process 39397 to run task
+[2024-05-02T09:11:50.192-0500] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'scenario_two_v3', 'second_task', 'manual__2024-05-02T14:09:45.508832+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/dotnet_dag.py', '--cfg-path', '/var/folders/14/31_1v10s5nvcqyswsggcn5vh0000gn/T/tmpd6xu5j73']
+[2024-05-02T09:11:50.193-0500] {standard_task_runner.py:91} INFO - Job 26: Subtask second_task
+[2024-05-02T09:11:50.214-0500] {task_command.py:426} INFO - Running <TaskInstance: scenario_two_v3.second_task manual__2024-05-02T14:09:45.508832+00:00 [running]> on host nestors-macbook.attlocal.net
+[2024-05-02T09:11:50.241-0500] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nestor' AIRFLOW_CTX_DAG_ID='scenario_two_v3' AIRFLOW_CTX_TASK_ID='second_task' AIRFLOW_CTX_EXECUTION_DATE='2024-05-02T14:09:45.508832+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-02T14:09:45.508832+00:00'
+[2024-05-02T09:11:50.242-0500] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-02T09:11:50.252-0500] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/14/31_1v10s5nvcqyswsggcn5vh0000gn/T
+[2024-05-02T09:11:50.252-0500] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'dotnet run /Users/nestoralfaro/Desktop/pbi-scenario-two/dotnetapp/']
+[2024-05-02T09:11:50.256-0500] {subprocess.py:86} INFO - Output:
+[2024-05-02T09:11:50.366-0500] {subprocess.py:93} INFO - Couldn't find a project to run. Ensure a project exists in /private/var/folders/14/31_1v10s5nvcqyswsggcn5vh0000gn/T/airflowtmp8ljmzu1s, or pass the path to the project using --project.
+[2024-05-02T09:11:50.394-0500] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-05-02T09:11:50.395-0500] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-02T09:11:50.400-0500] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/nestoralfaro/Desktop/pbi-scenario-two/py_env/lib/python3.9/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-05-02T09:11:50.410-0500] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=scenario_two_v3, task_id=second_task, execution_date=20240502T140945, start_date=20240502T141150, end_date=20240502T141150
+[2024-05-02T09:11:50.414-0500] {standard_task_runner.py:110} ERROR - Failed to execute job 26 for task second_task (Bash command failed. The command returned a non-zero exit code 1.; 39397)
+[2024-05-02T09:11:50.431-0500] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-02T09:11:50.437-0500] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-02T09:11:50.437-0500] {local_task_job_runner.py:222} INFO - ::endgroup::
