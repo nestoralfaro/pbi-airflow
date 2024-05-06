@@ -1,0 +1,60 @@
+[2024-05-06T10:18:01.413-0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-06T10:18:01.420-0500] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scenario_two_v3.second_task manual__2024-05-06T15:17:58.882431+00:00 [queued]>
+[2024-05-06T10:18:01.422-0500] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scenario_two_v3.second_task manual__2024-05-06T15:17:58.882431+00:00 [queued]>
+[2024-05-06T10:18:01.422-0500] {taskinstance.py:2303} INFO - Starting attempt 1 of 6
+[2024-05-06T10:18:01.427-0500] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): second_task> on 2024-05-06 15:17:58.882431+00:00
+[2024-05-06T10:18:01.430-0500] {standard_task_runner.py:63} INFO - Started process 28360 to run task
+[2024-05-06T10:18:01.433-0500] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'scenario_two_v3', 'second_task', 'manual__2024-05-06T15:17:58.882431+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/dotnet_dag.py', '--cfg-path', '/var/folders/14/31_1v10s5nvcqyswsggcn5vh0000gn/T/tmp80fv7yxt']
+[2024-05-06T10:18:01.434-0500] {standard_task_runner.py:91} INFO - Job 53: Subtask second_task
+[2024-05-06T10:18:01.449-0500] {task_command.py:426} INFO - Running <TaskInstance: scenario_two_v3.second_task manual__2024-05-06T15:17:58.882431+00:00 [running]> on host nestors-macbook.attlocal.net
+[2024-05-06T10:18:01.476-0500] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nestor' AIRFLOW_CTX_DAG_ID='scenario_two_v3' AIRFLOW_CTX_TASK_ID='second_task' AIRFLOW_CTX_EXECUTION_DATE='2024-05-06T15:17:58.882431+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-06T15:17:58.882431+00:00'
+[2024-05-06T10:18:01.476-0500] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-06T10:18:01.483-0500] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/14/31_1v10s5nvcqyswsggcn5vh0000gn/T
+[2024-05-06T10:18:01.484-0500] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'dotnet run --project /Users/nestoralfaro/Desktop/pbi-scenario-two/dotnetapp/dotnetapp.csproj']
+[2024-05-06T10:18:01.487-0500] {subprocess.py:86} INFO - Output:
+[2024-05-06T10:18:02.472-0500] {subprocess.py:93} INFO - *********************Sheet Trades:*********************
+[2024-05-06T10:18:02.477-0500] {subprocess.py:93} INFO - *********************Sheet Holdings:*********************
+[2024-05-06T10:18:02.479-0500] {subprocess.py:93} INFO - 
+[2024-05-06T10:18:02.480-0500] {subprocess.py:93} INFO -                   CREATE TABLE IF NOT EXISTS Trades_Portfolio_BI_CaseStudy_Data
+[2024-05-06T10:18:02.480-0500] {subprocess.py:93} INFO -                     (id INTEGER PRIMARY KEY AUTOINCREMENT,
+[2024-05-06T10:18:02.480-0500] {subprocess.py:93} INFO -                      sheet TEXT,
+[2024-05-06T10:18:02.480-0500] {subprocess.py:93} INFO -                 , "TradeDate" TEXT
+[2024-05-06T10:18:02.481-0500] {subprocess.py:93} INFO - , "Trader" TEXT
+[2024-05-06T10:18:02.481-0500] {subprocess.py:93} INFO - , "Security" TEXT
+[2024-05-06T10:18:02.481-0500] {subprocess.py:93} INFO - , "Counterparty" TEXT
+[2024-05-06T10:18:02.481-0500] {subprocess.py:93} INFO - , "Side" TEXT
+[2024-05-06T10:18:02.481-0500] {subprocess.py:93} INFO - , "TradeQty" TEXT
+[2024-05-06T10:18:02.482-0500] {subprocess.py:93} INFO - , "TradeCcy" TEXT
+[2024-05-06T10:18:02.482-0500] {subprocess.py:93} INFO - , "UnitPrice" TEXT
+[2024-05-06T10:18:02.482-0500] {subprocess.py:93} INFO - , "GrossProceeds" TEXT
+[2024-05-06T10:18:02.482-0500] {subprocess.py:93} INFO - , "TotalCommission" TEXT
+[2024-05-06T10:18:02.482-0500] {subprocess.py:93} INFO - , "NetProceeds" TEXT
+[2024-05-06T10:18:02.483-0500] {subprocess.py:93} INFO - );
+[2024-05-06T10:18:02.483-0500] {subprocess.py:93} INFO - INSERT INTO Trades_Portfolio_BI_CaseStudy_Data ("TradeDate", "Trader", "Security", "Counterparty", "Side", "TradeQty", "TradeCcy", "UnitPrice", "GrossProceeds", "TotalCommission", "NetProceeds")
+[2024-05-06T10:18:02.483-0500] {subprocess.py:93} INFO - VALUES
+[2024-05-06T10:18:02.483-0500] {subprocess.py:93} INFO - ('2/8/2011','John Smith','AAPL','GSEQ','BUY','2,000','USD','355.35','-71,070,000','-100','-710,800'),('2/8/2011','John Smith','AAPL','GSEQ','BUY','2,000','USD','355.45','-710,900','-100','-711,000'),('2/11/2011','jsmith','AAPL','GSEQ','SELL','2,000','USD','356.80','713,600','100','713,500');
+[2024-05-06T10:18:02.483-0500] {subprocess.py:93} INFO - 
+[2024-05-06T10:18:02.484-0500] {subprocess.py:93} INFO -                   CREATE TABLE IF NOT EXISTS Holdings_Portfolio_BI_CaseStudy_Data
+[2024-05-06T10:18:02.484-0500] {subprocess.py:93} INFO -                     (id INTEGER PRIMARY KEY AUTOINCREMENT,
+[2024-05-06T10:18:02.484-0500] {subprocess.py:93} INFO -                      sheet TEXT,
+[2024-05-06T10:18:02.484-0500] {subprocess.py:93} INFO -                 , "ReportDate" TEXT
+[2024-05-06T10:18:02.484-0500] {subprocess.py:93} INFO - , "RiskTaker" TEXT
+[2024-05-06T10:18:02.484-0500] {subprocess.py:93} INFO - , "Security" TEXT
+[2024-05-06T10:18:02.485-0500] {subprocess.py:93} INFO - , "EndUnitCost" TEXT
+[2024-05-06T10:18:02.485-0500] {subprocess.py:93} INFO - , "StartQuantity" TEXT
+[2024-05-06T10:18:02.485-0500] {subprocess.py:93} INFO - , "EndQuantity" TEXT
+[2024-05-06T10:18:02.485-0500] {subprocess.py:93} INFO - , "StartMarketValue" TEXT
+[2024-05-06T10:18:02.485-0500] {subprocess.py:93} INFO - , "EndMarketValue" TEXT
+[2024-05-06T10:18:02.485-0500] {subprocess.py:93} INFO - , "Day P&L" TEXT
+[2024-05-06T10:18:02.486-0500] {subprocess.py:93} INFO - , "" TEXT
+[2024-05-06T10:18:02.486-0500] {subprocess.py:93} INFO - , "Closing Price" TEXT
+[2024-05-06T10:18:02.486-0500] {subprocess.py:93} INFO - );
+[2024-05-06T10:18:02.486-0500] {subprocess.py:93} INFO - INSERT INTO Holdings_Portfolio_BI_CaseStudy_Data ("ReportDate", "RiskTaker", "Security", "EndUnitCost", "StartQuantity", "EndQuantity", "StartMarketValue", "EndMarketValue", "Day P&L", "", "Closing Price")
+[2024-05-06T10:18:02.486-0500] {subprocess.py:93} INFO - VALUES
+[2024-05-06T10:18:02.487-0500] {subprocess.py:93} INFO - ('2/8/2011','John Smith','AAPL','355.40','-  ','4,000','1,000','1,420,800','2,842,600',NULL,'355.20'),('2/9/2011','John Smith','AAPL','355.40','4,000','4,000','1,420,800','1,432,640','11,840',NULL,'358.16'),('2/10/2011','John Smith','AAPL','355.40','4,000','4,000','1,432,640','1,418,160','14,480',NULL,'354.54'),('2/11/2011','jsmith','AAPL US','355.45','-  ','2,000','1,418,160','713,700',NULL,NULL,'50.98');
+[2024-05-06T10:18:02.491-0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-05-06T10:18:02.492-0500] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-06T10:18:02.502-0500] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=scenario_two_v3, task_id=second_task, execution_date=20240506T151758, start_date=20240506T151801, end_date=20240506T151802
+[2024-05-06T10:18:02.519-0500] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-06T10:18:02.525-0500] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-06T10:18:02.526-0500] {local_task_job_runner.py:222} INFO - ::endgroup::
